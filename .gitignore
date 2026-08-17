@@ -9,6 +9,5 @@ _epub_extract/
 _probe/
 _temp.zip
 _extract_fixtures.py
-data/
 *.epub
 .DS_Store

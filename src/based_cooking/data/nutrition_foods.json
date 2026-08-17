@@ -1,0 +1,359 @@
+{
+  "egg": {
+    "name": "egg",
+    "aliases": ["eggs", "large egg"],
+    "allergens": ["egg"],
+    "per": {
+      "each": {"kcal": 72, "protein_g": 6.3, "fat_g": 4.8, "carbs_g": 0.4, "fiber_g": 0},
+      "g": {"kcal": 1.43, "protein_g": 0.126, "fat_g": 0.095, "carbs_g": 0.007, "fiber_g": 0}
+    }
+  },
+  "egg white": {
+    "name": "egg white",
+    "aliases": ["egg whites"],
+    "allergens": ["egg"],
+    "per": {
+      "each": {"kcal": 17, "protein_g": 3.6, "fat_g": 0.1, "carbs_g": 0.2, "fiber_g": 0}
+    }
+  },
+  "egg yolk": {
+    "name": "egg yolk",
+    "aliases": ["egg yolks"],
+    "allergens": ["egg"],
+    "per": {
+      "each": {"kcal": 55, "protein_g": 2.7, "fat_g": 4.5, "carbs_g": 0.6, "fiber_g": 0}
+    }
+  },
+  "butter": {
+    "name": "butter",
+    "aliases": ["unsalted butter", "salted butter"],
+    "allergens": ["dairy"],
+    "per": {
+      "tbsp": {"kcal": 102, "protein_g": 0.1, "fat_g": 11.5, "carbs_g": 0, "fiber_g": 0},
+      "tsp": {"kcal": 34, "protein_g": 0.03, "fat_g": 3.8, "carbs_g": 0, "fiber_g": 0},
+      "cup": {"kcal": 1628, "protein_g": 1.9, "fat_g": 184, "carbs_g": 0.1, "fiber_g": 0},
+      "stick": {"kcal": 810, "protein_g": 1, "fat_g": 92, "carbs_g": 0, "fiber_g": 0},
+      "g": {"kcal": 7.17, "protein_g": 0.009, "fat_g": 0.81, "carbs_g": 0.001, "fiber_g": 0}
+    }
+  },
+  "olive oil": {
+    "name": "olive oil",
+    "aliases": ["extra-virgin olive oil", "extra virgin olive oil"],
+    "allergens": [],
+    "per": {
+      "tbsp": {"kcal": 119, "protein_g": 0, "fat_g": 13.5, "carbs_g": 0, "fiber_g": 0},
+      "tsp": {"kcal": 40, "protein_g": 0, "fat_g": 4.5, "carbs_g": 0, "fiber_g": 0},
+      "cup": {"kcal": 1909, "protein_g": 0, "fat_g": 216, "carbs_g": 0, "fiber_g": 0}
+    }
+  },
+  "oil": {
+    "name": "oil",
+    "aliases": ["vegetable oil", "canola oil", "neutral oil"],
+    "allergens": [],
+    "per": {
+      "tbsp": {"kcal": 120, "protein_g": 0, "fat_g": 13.6, "carbs_g": 0, "fiber_g": 0},
+      "tsp": {"kcal": 40, "protein_g": 0, "fat_g": 4.5, "carbs_g": 0, "fiber_g": 0}
+    }
+  },
+  "onion": {
+    "name": "onion",
+    "aliases": ["onions", "yellow onion", "white onion"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 44, "protein_g": 1.2, "fat_g": 0.1, "carbs_g": 10.3, "fiber_g": 1.9},
+      "cup": {"kcal": 64, "protein_g": 1.8, "fat_g": 0.2, "carbs_g": 14.9, "fiber_g": 2.7}
+    }
+  },
+  "red onion": {
+    "name": "red onion",
+    "aliases": [],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 40, "protein_g": 1.1, "fat_g": 0.1, "carbs_g": 9.3, "fiber_g": 1.7},
+      "cup": {"kcal": 64, "protein_g": 1.8, "fat_g": 0.2, "carbs_g": 14.9, "fiber_g": 2.7}
+    }
+  },
+  "garlic": {
+    "name": "garlic",
+    "aliases": ["garlic clove", "garlic cloves"],
+    "allergens": [],
+    "per": {
+      "clove": {"kcal": 4, "protein_g": 0.2, "fat_g": 0, "carbs_g": 1, "fiber_g": 0.1},
+      "each": {"kcal": 4, "protein_g": 0.2, "fat_g": 0, "carbs_g": 1, "fiber_g": 0.1},
+      "tsp": {"kcal": 4, "protein_g": 0.2, "fat_g": 0, "carbs_g": 1, "fiber_g": 0.1}
+    }
+  },
+  "salt": {
+    "name": "salt",
+    "aliases": ["kosher salt", "sea salt", "table salt"],
+    "allergens": [],
+    "per": {
+      "tsp": {"kcal": 0, "protein_g": 0, "fat_g": 0, "carbs_g": 0, "fiber_g": 0},
+      "tbsp": {"kcal": 0, "protein_g": 0, "fat_g": 0, "carbs_g": 0, "fiber_g": 0}
+    }
+  },
+  "pepper": {
+    "name": "pepper",
+    "aliases": ["black pepper", "ground black pepper"],
+    "allergens": [],
+    "per": {
+      "tsp": {"kcal": 5, "protein_g": 0.2, "fat_g": 0.1, "carbs_g": 1.3, "fiber_g": 0.5}
+    }
+  },
+  "flour": {
+    "name": "flour",
+    "aliases": ["all-purpose flour", "all purpose flour", "ap flour", "wheat flour"],
+    "allergens": ["gluten"],
+    "per": {
+      "cup": {"kcal": 455, "protein_g": 12.9, "fat_g": 1.2, "carbs_g": 95.4, "fiber_g": 3.4},
+      "tbsp": {"kcal": 28, "protein_g": 0.8, "fat_g": 0.1, "carbs_g": 6, "fiber_g": 0.2},
+      "g": {"kcal": 3.64, "protein_g": 0.1, "fat_g": 0.01, "carbs_g": 0.76, "fiber_g": 0.027}
+    }
+  },
+  "sugar": {
+    "name": "sugar",
+    "aliases": ["granulated sugar", "white sugar"],
+    "allergens": [],
+    "per": {
+      "cup": {"kcal": 774, "protein_g": 0, "fat_g": 0, "carbs_g": 200, "fiber_g": 0},
+      "tbsp": {"kcal": 48, "protein_g": 0, "fat_g": 0, "carbs_g": 12.5, "fiber_g": 0},
+      "tsp": {"kcal": 16, "protein_g": 0, "fat_g": 0, "carbs_g": 4.2, "fiber_g": 0}
+    }
+  },
+  "brown sugar": {
+    "name": "brown sugar",
+    "aliases": [],
+    "allergens": [],
+    "per": {
+      "cup": {"kcal": 836, "protein_g": 0, "fat_g": 0, "carbs_g": 216, "fiber_g": 0},
+      "tbsp": {"kcal": 52, "protein_g": 0, "fat_g": 0, "carbs_g": 13.4, "fiber_g": 0}
+    }
+  },
+  "milk": {
+    "name": "milk",
+    "aliases": ["whole milk", "2% milk"],
+    "allergens": ["dairy"],
+    "per": {
+      "cup": {"kcal": 149, "protein_g": 7.7, "fat_g": 7.9, "carbs_g": 11.7, "fiber_g": 0},
+      "tbsp": {"kcal": 9, "protein_g": 0.5, "fat_g": 0.5, "carbs_g": 0.7, "fiber_g": 0}
+    }
+  },
+  "cream": {
+    "name": "cream",
+    "aliases": ["heavy cream", "whipping cream", "heavy whipping cream"],
+    "allergens": ["dairy"],
+    "per": {
+      "cup": {"kcal": 821, "protein_g": 4.9, "fat_g": 88, "carbs_g": 6.6, "fiber_g": 0},
+      "tbsp": {"kcal": 51, "protein_g": 0.3, "fat_g": 5.5, "carbs_g": 0.4, "fiber_g": 0}
+    }
+  },
+  "cheddar": {
+    "name": "cheddar",
+    "aliases": ["cheddar cheese", "sharp cheddar"],
+    "allergens": ["dairy"],
+    "per": {
+      "cup": {"kcal": 455, "protein_g": 28, "fat_g": 37, "carbs_g": 3.7, "fiber_g": 0},
+      "oz": {"kcal": 114, "protein_g": 7, "fat_g": 9.4, "carbs_g": 0.9, "fiber_g": 0},
+      "g": {"kcal": 4.03, "protein_g": 0.25, "fat_g": 0.33, "carbs_g": 0.03, "fiber_g": 0}
+    }
+  },
+  "parmesan": {
+    "name": "parmesan",
+    "aliases": ["parmesan cheese", "parm"],
+    "allergens": ["dairy"],
+    "per": {
+      "cup": {"kcal": 431, "protein_g": 38, "fat_g": 29, "carbs_g": 4, "fiber_g": 0},
+      "tbsp": {"kcal": 22, "protein_g": 1.9, "fat_g": 1.4, "carbs_g": 0.2, "fiber_g": 0},
+      "oz": {"kcal": 111, "protein_g": 10, "fat_g": 7.3, "carbs_g": 0.9, "fiber_g": 0}
+    }
+  },
+  "chicken": {
+    "name": "chicken",
+    "aliases": ["chicken breast", "chicken thighs", "chicken meat"],
+    "allergens": ["meat"],
+    "per": {
+      "oz": {"kcal": 47, "protein_g": 8.8, "fat_g": 1, "carbs_g": 0, "fiber_g": 0},
+      "lb": {"kcal": 748, "protein_g": 140, "fat_g": 16, "carbs_g": 0, "fiber_g": 0},
+      "g": {"kcal": 1.65, "protein_g": 0.31, "fat_g": 0.036, "carbs_g": 0, "fiber_g": 0}
+    }
+  },
+  "beef": {
+    "name": "beef",
+    "aliases": ["ground beef", "beef chuck", "steak"],
+    "allergens": ["meat"],
+    "per": {
+      "oz": {"kcal": 70, "protein_g": 6.5, "fat_g": 4.7, "carbs_g": 0, "fiber_g": 0},
+      "lb": {"kcal": 1120, "protein_g": 104, "fat_g": 75, "carbs_g": 0, "fiber_g": 0},
+      "g": {"kcal": 2.5, "protein_g": 0.23, "fat_g": 0.17, "carbs_g": 0, "fiber_g": 0}
+    }
+  },
+  "rice": {
+    "name": "rice",
+    "aliases": ["white rice", "long-grain rice"],
+    "allergens": [],
+    "per": {
+      "cup": {"kcal": 205, "protein_g": 4.3, "fat_g": 0.4, "carbs_g": 44.5, "fiber_g": 0.6}
+    }
+  },
+  "pasta": {
+    "name": "pasta",
+    "aliases": ["spaghetti", "noodles", "penne"],
+    "allergens": ["gluten"],
+    "per": {
+      "oz": {"kcal": 105, "protein_g": 3.7, "fat_g": 0.4, "carbs_g": 21, "fiber_g": 0.9},
+      "cup": {"kcal": 221, "protein_g": 8.1, "fat_g": 1.3, "carbs_g": 43, "fiber_g": 2.5}
+    }
+  },
+  "tomato": {
+    "name": "tomato",
+    "aliases": ["tomatoes", "roma tomato"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 22, "protein_g": 1.1, "fat_g": 0.2, "carbs_g": 4.8, "fiber_g": 1.5},
+      "cup": {"kcal": 32, "protein_g": 1.6, "fat_g": 0.4, "carbs_g": 7, "fiber_g": 2.2}
+    }
+  },
+  "lemon": {
+    "name": "lemon",
+    "aliases": ["lemons"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 17, "protein_g": 0.6, "fat_g": 0.2, "carbs_g": 5.4, "fiber_g": 1.6},
+      "tbsp": {"kcal": 3, "protein_g": 0.1, "fat_g": 0, "carbs_g": 1, "fiber_g": 0.1}
+    }
+  },
+  "lime": {
+    "name": "lime",
+    "aliases": ["limes"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 20, "protein_g": 0.5, "fat_g": 0.1, "carbs_g": 7, "fiber_g": 1.9}
+    }
+  },
+  "avocado": {
+    "name": "avocado",
+    "aliases": ["avocados"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 240, "protein_g": 3, "fat_g": 22, "carbs_g": 12.8, "fiber_g": 10},
+      "cup": {"kcal": 234, "protein_g": 2.9, "fat_g": 21.4, "carbs_g": 12.5, "fiber_g": 9.8}
+    }
+  },
+  "potato": {
+    "name": "potato",
+    "aliases": ["potatoes", "russet potato"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 163, "protein_g": 4.3, "fat_g": 0.2, "carbs_g": 37, "fiber_g": 4},
+      "cup": {"kcal": 116, "protein_g": 2.1, "fat_g": 0.1, "carbs_g": 26.7, "fiber_g": 2.4}
+    }
+  },
+  "carrot": {
+    "name": "carrot",
+    "aliases": ["carrots"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 25, "protein_g": 0.6, "fat_g": 0.1, "carbs_g": 6, "fiber_g": 1.7},
+      "cup": {"kcal": 52, "protein_g": 1.2, "fat_g": 0.3, "carbs_g": 12.3, "fiber_g": 3.6}
+    }
+  },
+  "peanut butter": {
+    "name": "peanut butter",
+    "aliases": [],
+    "allergens": ["peanut"],
+    "per": {
+      "tbsp": {"kcal": 94, "protein_g": 3.6, "fat_g": 8, "carbs_g": 3.1, "fiber_g": 1},
+      "cup": {"kcal": 1510, "protein_g": 57, "fat_g": 128, "carbs_g": 50, "fiber_g": 16}
+    }
+  },
+  "soy sauce": {
+    "name": "soy sauce",
+    "aliases": [],
+    "allergens": ["soy", "gluten"],
+    "per": {
+      "tbsp": {"kcal": 8, "protein_g": 1.3, "fat_g": 0, "carbs_g": 0.8, "fiber_g": 0.1},
+      "tsp": {"kcal": 3, "protein_g": 0.4, "fat_g": 0, "carbs_g": 0.3, "fiber_g": 0}
+    }
+  },
+  "honey": {
+    "name": "honey",
+    "aliases": [],
+    "allergens": [],
+    "per": {
+      "tbsp": {"kcal": 64, "protein_g": 0.1, "fat_g": 0, "carbs_g": 17.3, "fiber_g": 0},
+      "tsp": {"kcal": 21, "protein_g": 0, "fat_g": 0, "carbs_g": 5.8, "fiber_g": 0}
+    }
+  },
+  "yogurt": {
+    "name": "yogurt",
+    "aliases": ["plain yogurt", "greek yogurt"],
+    "allergens": ["dairy"],
+    "per": {
+      "cup": {"kcal": 149, "protein_g": 8.5, "fat_g": 8, "carbs_g": 11.4, "fiber_g": 0},
+      "tbsp": {"kcal": 9, "protein_g": 0.5, "fat_g": 0.5, "carbs_g": 0.7, "fiber_g": 0}
+    }
+  },
+  "bacon": {
+    "name": "bacon",
+    "aliases": [],
+    "allergens": ["meat"],
+    "per": {
+      "slice": {"kcal": 43, "protein_g": 3, "fat_g": 3.3, "carbs_g": 0.1, "fiber_g": 0},
+      "oz": {"kcal": 151, "protein_g": 10.5, "fat_g": 11.7, "carbs_g": 0.4, "fiber_g": 0}
+    }
+  },
+  "shrimp": {
+    "name": "shrimp",
+    "aliases": ["prawns"],
+    "allergens": ["shellfish"],
+    "per": {
+      "oz": {"kcal": 28, "protein_g": 6, "fat_g": 0.3, "carbs_g": 0.2, "fiber_g": 0},
+      "lb": {"kcal": 449, "protein_g": 96, "fat_g": 4.8, "carbs_g": 3.2, "fiber_g": 0}
+    }
+  },
+  "salmon": {
+    "name": "salmon",
+    "aliases": [],
+    "allergens": ["fish"],
+    "per": {
+      "oz": {"kcal": 59, "protein_g": 6.3, "fat_g": 3.6, "carbs_g": 0, "fiber_g": 0},
+      "lb": {"kcal": 944, "protein_g": 101, "fat_g": 58, "carbs_g": 0, "fiber_g": 0}
+    }
+  },
+  "almond": {
+    "name": "almond",
+    "aliases": ["almonds"],
+    "allergens": ["tree_nut"],
+    "per": {
+      "cup": {"kcal": 828, "protein_g": 30, "fat_g": 71, "carbs_g": 31, "fiber_g": 17},
+      "oz": {"kcal": 164, "protein_g": 6, "fat_g": 14, "carbs_g": 6.1, "fiber_g": 3.5}
+    }
+  },
+  "walnut": {
+    "name": "walnut",
+    "aliases": ["walnuts"],
+    "allergens": ["tree_nut"],
+    "per": {
+      "cup": {"kcal": 765, "protein_g": 18, "fat_g": 76, "carbs_g": 16, "fiber_g": 8},
+      "oz": {"kcal": 185, "protein_g": 4.3, "fat_g": 18.5, "carbs_g": 3.9, "fiber_g": 1.9}
+    }
+  },
+  "scallion": {
+    "name": "scallion",
+    "aliases": ["green onion", "green onions", "spring onion"],
+    "allergens": [],
+    "per": {
+      "each": {"kcal": 5, "protein_g": 0.3, "fat_g": 0, "carbs_g": 1.1, "fiber_g": 0.4},
+      "cup": {"kcal": 32, "protein_g": 1.8, "fat_g": 0.2, "carbs_g": 7.3, "fiber_g": 2.6}
+    }
+  },
+  "water": {
+    "name": "water",
+    "aliases": [],
+    "allergens": [],
+    "per": {
+      "cup": {"kcal": 0, "protein_g": 0, "fat_g": 0, "carbs_g": 0, "fiber_g": 0},
+      "tbsp": {"kcal": 0, "protein_g": 0, "fat_g": 0, "carbs_g": 0, "fiber_g": 0}
+    }
+  }
+}
